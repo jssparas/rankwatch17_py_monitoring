@@ -44,8 +44,6 @@ if __name__ == "__main__":
     used_root = 0
     free_home = 0
     used_home = 0
-    root_disk_usages = []
-    home_disk_usages = []
     for i in range(1, 61):
         cpu_usage = psutil.cpu_percent(1, False)
         cpu_usages += cpu_usage
